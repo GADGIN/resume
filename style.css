@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+
+
+
+body {
+    font-size: 20px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: normal;
+    color:#0f141e ;
+    background-color: rgb(161 161 161);
+}
+.inputButton{
+    background-color: rgb(6, 6, 6);
+     color: white;
+     border: none;
+   padding: 15px 20px;
+   cursor: pointer;
+   border-radius: 8px;
+   margin-top: 20px;
+}
+
+
+.inputButton:hover{
+    background-color: rgb(11, 168, 235);
+    color: black;
+    position: inherit;
+    opacity: 0.8;
+    
+}
+.form-row{
+    display:  flex;
+    
+}
+.form-row .form-group{
+    width: 50%;
+    margin-right: 20px;
+}
+
+.textArea{
+    background-color: transparent;
+    border: none;
+    width: 100%;
+    border-bottom: 1px solid black;
+    outline: none;
+    font-family: inherit;
+     padding: 15px 0 10px;
+}
+
+
+.nameF {
+    border-width: 7px ;
+    border-style: solid;
+    border-radius: 8px;
+   border-color: rgb(116, 76, 119);
+   border-left-color: rgb(116, 76, 119);
+   border-right-color: rgb(116, 76, 119) ;
+   border-top-color: rgb(161 161 161);
+
+}
+.name-container{
+   display: flex;
+    justify-content: center;
+   
+}
+  .Hart{ background-color: rgb(104, 221, 225); 
+border-radius:  8px;
+padding-left: 30px;
+padding-top: 10px;
+padding-bottom: 10px;
+
+
+}
+.disc{
+    background-color: rgb(164, 231, 164);
+    border-radius: 8px;
+}
+
+.social{
+    padding-left:  30px; 
+    padding-top: 10px;
+}
+.social2{
+    padding-left: 30px;
+    padding-bottom: 10px;
+    
+}
+a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+.sirt:hover{
+    color: blue;
+    text-transform: uppercase;
+}
+
+.sirt2:hover{ 
+color: rgb(11, 168, 235);
+text-transform: uppercase;
+}
+.sirt3:hover{
+color: red;
+text-transform: uppercase;
+
+}
+
+
+.container{
+    max-width:  750px; ;
+    padding-top: 30px;
+    margin: auto;
+}
+
+.img{
+    display: flex;
+    width: 200px;
+    
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 4px 4px 14px 
+    
+}
+ .form h2 {
+    text-align: center;
+ }
+ .form-group label{ display: block;
+
+ }
